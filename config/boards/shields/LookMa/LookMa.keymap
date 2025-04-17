@@ -12,7 +12,7 @@
                     &kp ESC     &kp Q       &kp W       &kp E       &kp R       &kp T
                     &kp TAB     &kp A       &kp S       &kp D       &kp F       &kp G
                     &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B
-                                                        &kp ENTER   &kp LGUI    &kp SPACE   &kp BSPC
+                    &kp A       &kp A       &kp ENTER   &kp LGUI    &kp SPACE   &kp BSPC
                 >;                                        
         };
     };
