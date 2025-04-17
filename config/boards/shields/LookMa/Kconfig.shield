@@ -1,0 +1,2 @@
+config SHIELD_LOOKMA
+    def_bool $(shield_list_contains, LookMa)
