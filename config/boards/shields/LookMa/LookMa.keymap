@@ -7,21 +7,21 @@
         compatible = "zmk,keymap";
 
         default_layer {
-                bindings = <
-                    &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp N6
-                    &kp ESC     &kp Q       &kp W       &kp E       &kp R       &kp T
-                    &kp TAB     &kp A       &kp S       &kp D       &kp F       &kp G
-                    &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B
-                    &kp Y       &mo 1       &kp ENTER   &kp LGUI    &kp SPACE   &kp BSPC
-                >;                                        
+            bindings = <
+                &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp N6
+                &kp ESC     &kp Q       &kp W       &kp E       &kp R       &kp T
+                &kp TAB     &kp A       &kp S       &kp D       &kp F       &kp G
+                &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B
+                &kp Y       &mo 1       &kp ENTER   &kp LGUI    &kp SPACE   &kp BSPC
+            >;                                        
         };
          bt_layer {
-                bindings = <
-                    &trans     &trans       &trans      &bootloader &trans      &trans
-                    &trans     &trans       &trans      &bt BT_CLR  &trans      &trans
-                    &trans     &trans       &trans      &trans      &trans      &trans
-                    &trans     &trans       &trans      &bt BT_SEL 0 &trans     &trans
-                    &trans     &trans       &trans      &trans      &trans      &trans
+            bindings = <
+                &trans     &trans       &trans      &bootloader &trans      &trans
+                &trans     &trans       &trans      &bt BT_CLR  &trans      &trans
+                &trans     &trans       &trans      &trans      &trans      &trans
+                &trans     &trans       &trans      &bt BT_SEL 0 &trans     &trans
+                &trans     &trans       &trans      &trans      &trans      &trans
             >;
         };
     };
