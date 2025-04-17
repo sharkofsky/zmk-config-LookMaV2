@@ -19,6 +19,6 @@
 #
 ---
 include:
-  - board: nice_nano_v2
-    shield: LookMa
+  - board: LookMa
+    shield: nice_nano_v2
 
