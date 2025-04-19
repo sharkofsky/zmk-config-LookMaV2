@@ -12,7 +12,7 @@
                 &kp TAB   &kp Q  &kp W  &kp E     &kp R     &kp T  
                 &kp LCTRL &kp A  &kp S  &kp D     &kp F     &kp G 
                 &kp LSHFT &kp Z  &kp X  &kp C     &kp V     &kp B
-                                        &kp SPACE &kp RET   &kp BSPC    &mo 1 
+                                        &kp BSPC &kp RET   &kp SPACE    &mo 1 
             >;                                        
         };
          bt_layer {
