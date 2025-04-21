@@ -1,6 +1,15 @@
-if SHIELD_LOOKMA
+if SHIELD_LOOKMA_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "LookMa"
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_LOOKMA_LEFT || SHIELD_LOOKMA_RIGHT
+
+config ZMK_SPLIT
+    default y
 
 endif

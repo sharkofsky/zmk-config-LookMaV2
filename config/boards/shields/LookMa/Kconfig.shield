@@ -1,2 +1,4 @@
-config SHIELD_LOOKMA
-    def_bool $(shields_list_contains,LookMa)
+config SHIELD_LOOKMA_LEFT
+    def_bool $(shields_list_contains,LookMa_left)
+config SHIELD_LOOKMA_RIGHT
+    def_bool $(shields_list_contains,LookMa_right)
