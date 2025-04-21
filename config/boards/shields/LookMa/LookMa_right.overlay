@@ -1,4 +1,4 @@
-#include "LookMa.dtsi
+#include "LookMa.dtsi"
 
 &default_transform{
     col-offset = <6>
