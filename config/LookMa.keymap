@@ -8,14 +8,14 @@
         copy: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LGUI &kp C>;
+            bindings = <&kp LG(C)>;
             label = "NEW_MACRO";
         };
 
         paste: paste {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LGUI &kp V>;
+            bindings = <&kp LG(V)>;
             label = "PASTE";
         };
 
