@@ -31,6 +31,7 @@
 &paste   &kp Z   &kp X   &kp C     &kp V    &kp B                            &kp N      &kp M    &kp COMMA  &kp DOT  &kp SLASH  &kp RET
                          &kp BSPC  &kp RET  &kp SPACE    &mo 2      &mo 2    &kp SPACE  &kp RET  &kp BSPC
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_1 {
@@ -41,6 +42,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                          &kp SLASH     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH  &trans
                         &trans  &trans  &trans    &trans      &trans    &trans        &kp KP_NUMBER_0  &kp PERIOD
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         bt_layer {
@@ -51,6 +53,7 @@
 &trans  &trans  &trans  &bt BT_SEL 0  &trans  &trans                          &trans  &trans     &trans     &trans  &trans  &trans
                         &trans        &trans  &trans    &trans      &trans    &trans  &trans     &trans
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
