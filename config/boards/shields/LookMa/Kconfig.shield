@@ -1,4 +1,5 @@
 config SHIELD_LOOKMA_LEFT
     def_bool $(shields_list_contains,LookMa_left)
+    CONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
 config SHIELD_LOOKMA_RIGHT
     def_bool $(shields_list_contains,LookMa_right)

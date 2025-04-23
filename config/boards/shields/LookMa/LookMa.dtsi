@@ -44,9 +44,7 @@ right_encoder: encoder_right {
         
 };
     sensors: sensors {
-        compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder &right_encoder>;
-        triggers-per-rotation = <20>;
+        compatible = "zmk,keymatttttt
     };
 };
 &left_encoder {
@@ -55,3 +53,4 @@ right_encoder: encoder_right {
 &right_encoder {
     status = "okay";
 };
+  f safsdfetrqtqwe      zzrrt
