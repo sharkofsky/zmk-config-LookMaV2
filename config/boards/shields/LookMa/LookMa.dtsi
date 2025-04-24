@@ -29,16 +29,4 @@
      vbatt: vbatt {
         compatible = "zmk,battery-nrf-vddh";
     };
-
-sensors: sensors {
-        compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder &right_encoder>;
-        triggers-per-rotation = <20>;
-};
-};
-&left_encoder {
-    status = "okay";
-};
-&right_encoder {
-    status = "okay";
 };
