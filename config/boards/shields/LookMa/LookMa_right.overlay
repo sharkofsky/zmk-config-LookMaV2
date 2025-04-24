@@ -19,3 +19,10 @@
                 <&pro_micro 16 (GPIO_ACTIVE_HIGH| GPIO_PULL_DOWN)>,
                 <&pro_micro 10 (GPIO_ACTIVE_HIGH| GPIO_PULL_DOWN)>;
 };
+right_encoder: encoder_right {
+    compatible = "alps,ec11";
+    a-gpios = <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+    b-gpios = <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+    steps = <80>;
+        
+};
