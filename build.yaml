@@ -23,5 +23,5 @@ include:
     shield: LookMa_left
   - board: nice_nano_v2
     shield: LookMa_right
-  - board: nice_nano_v2
-    shield: settings_reset
+#  - board: nice_nano_v2
+#   shield: settings_reset
