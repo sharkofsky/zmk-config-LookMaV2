@@ -7,6 +7,7 @@
      behaviors {
         scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate-var";
+        #sensor-binding-cells = <const>;
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
         tap-ms = <30>;
         };
