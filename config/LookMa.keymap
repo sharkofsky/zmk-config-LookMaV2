@@ -5,6 +5,9 @@
 
 / {
     behaviors {
+        &mt{
+            tapping-term-ms = <140>;
+        };
         mkg: hold_mouse_key_press_tap_toggle {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
