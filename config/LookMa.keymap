@@ -5,6 +5,20 @@
 
 /{   
     behaviors {
+        mkg: hold_mouse_key_press_tap_toggle {
+                        compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>;
+                        tapping-term-ms = <200>; quick-tap-ms = <200>;
+                        flavor = "tap-preferred"; bindings = <&mkp>, <&tog>;
+                };
+                ec_s: mouse_scroll {
+                        compatible = "zmk,behavior-input-two-axis";
+                        #binding-cells = <1>;
+                        trigger-period-ms = <12>; // slow down for OTA, default is 3ms
+                        x-input-code = <INPUT_REL_HWHEEL>;
+                        y-input-code = <INPUT_REL_WHEEL>;
+                        time-to-max-speed-ms = <177>;
+                        acceleration-exponent = <0>;
+                };
         rot_enc: sensor_rotate {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
