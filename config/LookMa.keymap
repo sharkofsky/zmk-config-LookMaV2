@@ -115,7 +115,7 @@
                                             &trans     &trans           &trans       &trans      &trans    &trans        &kp KP_NUMBER_0  &kp PERIOD
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&rot_enc>;
         };
 
         bt_layer {
@@ -127,7 +127,7 @@
                            &trans          &trans  &trans    &trans      &trans    &trans  &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&rot_enc>;
         };
 
         layer_3 {
@@ -138,6 +138,7 @@
 &trans  &trans  &trans          &trans          &trans           &trans                          &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans  &trans
                                 &trans          &trans           &trans    &trans      &trans    &trans  &trans                &trans
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&rot_enc>;           
         };
     };
 };
