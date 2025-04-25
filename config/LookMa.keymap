@@ -13,7 +13,7 @@
                 ec_s: mouse_scroll {
                         compatible = "zmk,behavior-input-two-axis";
                         #binding-cells = <1>;
-                        trigger-period-ms = <12>; // slow down for OTA, default is 3ms
+                        trigger-period-ms = <3>; // slow down for OTA, default is 3ms
                         x-input-code = <INPUT_REL_HWHEEL>;
                         y-input-code = <INPUT_REL_WHEEL>;
                         time-to-max-speed-ms = <177>;
