@@ -11,9 +11,10 @@
             flavor = "hold-preferred";
             tapping-term-ms = <140>;
             bindings = <&kp>, <&kp>;
+
             display-name = "Mod-Tap";
-    
         };
+
         mkg: hold_mouse_key_press_tap_toggle {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -63,7 +64,7 @@
 &kp TILDE     &kp EXCL       &kp AT            &kp HASH   &kp DOLLAR       &kp PRCNT                          &kp PLUS      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS  &trans
 &kp CAPS      &kp AMPERSAND  &kp PIPE          &kp GRAVE  &kp RIGHT_ARROW  &trans                             &kp ASTERISK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SLASH  &trans
 &kp CAPSLOCK  &kp LESS_THAN  &kp GREATER_THAN  &kp CARET  &trans           &trans                             &kp SLASH     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH  &trans
-                                               &trans     &trans           &trans       &trans      &trans    &trans        &kp KP_NUMBER_0  &kp PERIOD
+                                               &trans     &trans           &trans       &trans      &trans    &kp EQUAL     &kp KP_NUMBER_0  &kp PERIOD
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&rot_enc>;
