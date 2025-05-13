@@ -4,18 +4,18 @@
 &kscan0 {
     compatible = "zmk,kscan-gpio-matrix";
     
-    row-gpios = <&pro_micro 5 (GPIO_ACTIVE_HIGH)>,
-                <&pro_micro 6 (GPIO_ACTIVE_HIGH)>,
-                <&pro_micro 7 (GPIO_ACTIVE_HIGH)>,
-                <&pro_micro 8 (GPIO_ACTIVE_HIGH)>,
-                <&pro_micro 9 (GPIO_ACTIVE_HIGH)>;   
+    row-gpios = <&pro_micro 5 (GPIO_ACTIVE_HIGH)>, // P0.24
+                <&pro_micro 6 (GPIO_ACTIVE_HIGH)>, // P1.00
+                <&pro_micro 7 (GPIO_ACTIVE_HIGH)>, // P0.11
+                <&pro_micro 8 (GPIO_ACTIVE_HIGH)>, // P1.04
+                <&pro_micro 9 (GPIO_ACTIVE_HIGH)>; // P1.06 
 
-    col-gpios = <&pro_micro 19 (GPIO_ACTIVE_HIGH| GPIO_PULL_DOWN)>,
-                <&pro_micro 18 (GPIO_ACTIVE_HIGH| GPIO_PULL_DOWN)>,
-                <&pro_micro 15 (GPIO_ACTIVE_HIGH| GPIO_PULL_DOWN)>,
-                <&pro_micro 14 (GPIO_ACTIVE_HIGH| GPIO_PULL_DOWN)>,
-                <&pro_micro 16 (GPIO_ACTIVE_HIGH| GPIO_PULL_DOWN)>,
-                <&pro_micro 10 (GPIO_ACTIVE_HIGH| GPIO_PULL_DOWN)>;
+    col-gpios = <&pro_micro 19 (GPIO_ACTIVE_HIGH| GPIO_PULL_DOWN)>, // P0.02
+                <&pro_micro 18 (GPIO_ACTIVE_HIGH| GPIO_PULL_DOWN)>, // P1.15
+                <&pro_micro 15 (GPIO_ACTIVE_HIGH| GPIO_PULL_DOWN)>, // P1.13
+                <&pro_micro 14 (GPIO_ACTIVE_HIGH| GPIO_PULL_DOWN)>, // P1.11
+                <&pro_micro 16 (GPIO_ACTIVE_HIGH| GPIO_PULL_DOWN)>, // P0.10
+                <&pro_micro 10 (GPIO_ACTIVE_HIGH| GPIO_PULL_DOWN)>; // P0.09
 };
 &left_encoder {
     status = "okay";
