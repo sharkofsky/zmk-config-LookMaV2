@@ -62,7 +62,7 @@
             bindings = <
 &trans        &trans         &trans            &trans     &trans         &trans                                    &trans         &trans           &trans           &trans           &trans     &trans
 &kp TILDE     &kp EXCL       &kp AT            &kp HASH   &kp DOLLAR     &kp PRCNT                                 &kp PLUS       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS  &kp BACKSPACE
-&kp CAPS      &kp AMPERSAND  &kp PIPE          &kp GRAVE  &kp BACKSLASH  &trans                                    &kp ASTERISK   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SLASH  &kp PIPE
+&kp CAPS      &kp AMPERSAND  &kp PIPE          &kp GRAVE  &kp BACKSLASH  &trans                                    &kp ASTERISK   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COLON  &kp PIPE
 &kp CAPSLOCK  &kp LESS_THAN  &kp GREATER_THAN  &kp CARET  &kp PIPE       &trans                                    &kp SLASH      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH  &trans
                                                &trans     &trans         &trans       &caps_word      &kp EQUAL    &kp BACKSPACE  &kp KP_NUMBER_0  &kp PERIOD
             >;
