@@ -64,7 +64,7 @@
 &kp TILDE     &kp EXCL       &kp AT            &kp HASH   &kp DOLLAR     &kp PRCNT                                 &kp PLUS       &kp N7        &kp N8        &kp N9        &kp MINUS  &kp BACKSPACE
 &kp CAPS      &kp AMPERSAND  &kp PIPE          &kp GRAVE  &kp BACKSLASH  &trans                                    &kp ASTERISK   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COLON  &kp PIPE
 &kp CAPSLOCK  &kp LESS_THAN  &kp GREATER_THAN  &kp CARET  &kp PIPE       &trans                                    &kp SLASH      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &trans
-                                               &trans     &trans         &trans       &caps_word      &kp EQUAL    &kp BACKSPACE  &kp LS(N0)    &kp PERIOD
+                                               &trans     &trans         &trans       &caps_word      &kp EQUAL    &kp BACKSPACE  &kp N0        &kp PERIOD
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&rot_enc>;
