@@ -20,10 +20,10 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: LookMa_left
+    shield: LookMa_left nice_luffy_wanted
 #    snippet: studio-rpc-usb-uart
 #    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano_v2
-    shield: LookMa_right
+    shield: LookMa_right nice_luffy_wanted
 #  - board: nice_nano_v2
 #   shield: settings_reset
