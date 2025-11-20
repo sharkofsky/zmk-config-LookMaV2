@@ -96,10 +96,10 @@
 
         Gaming {
             bindings = <
-&kp LG(F1)  &kp LG(F2)      &kp LG(LC(F3))  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_BRI_DEC                                     &kp C_BRI_UP   &kp LG(Z)     &kp LG(LS(Z))  &kp LG(F)       &kp LC(R)      &kp LG(LS(N5))
-&kp ESCAPE  &kp T           &kp Q           &kp W             &kp E       &kp R                                             &kp N0         &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3    &kp NUMBER_4   &kp BACKSPACE
-&kp LG(C)   &kp G           &kp A           &kp S             &kp D       &kp F                                             &mkp MCLK      &mkp LCLK     &mkp RCLK      &mt LEFT_ALT L  &mt LGUI SEMI  &kp SQT
-&kp LG(V)   &kp LEFT_SHIFT  &kp X           &kp C             &kp V       &kp B                                             &kp N5         &kp NUMBER_6  &kp N7         &kp N8          &kp N9         &kp RET
+&kp LG(F1)  &kp LG(F2)      &kp LG(LC(F3))  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_BRI_DEC                                     &kp C_BRI_UP   &kp LG(Z)     &kp LG(LS(Z))  &kp LG(F)       &kp LC(R)     &kp LG(LS(N5))
+&kp ESCAPE  &kp T           &kp Q           &kp W             &kp E       &kp R                                             &kp N0         &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3    &kp NUMBER_4  &kp BACKSPACE
+&kp LG(C)   &kp G           &kp A           &kp S             &kp D       &kp F                                             &mkp MCLK      &mkp LCLK     &mkp RCLK      &mt LEFT_ALT L  &kp P         &kp SQT
+&kp LG(V)   &kp LEFT_SHIFT  &kp X           &kp C             &kp V       &kp B                                             &kp N5         &kp NUMBER_6  &kp N7         &kp N8          &kp N9        &kp RET
                                             &tog 4            &kp LCTRL   &kp SPACE        &kp LEFT_SHIFT      &kp ENTER    &kp BACKSPACE  &kp LEFT_ALT  &kp LGUI
             >;
 
